@@ -4,14 +4,14 @@ import {furniture} from "./objects/furnitureList";
 import {MDCDrawer} from "@material/drawer/component";
 
 
-let ul, found, completeList;
+let ul,   found,   completeList;
 
 let list = document.getElementById('list');
 let form = document.getElementById('search-form');
 let search = document.getElementById('search-icon');
 
 
-function run(){
+function run(){  
 
     let drawer = new MDCDrawer.attachTo(document.getElementsByClassName("mdc-drawer")[0]);
 
